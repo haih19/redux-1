@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import "./studentsList.module.scss";
 import { Link } from "react-router-dom";
-import { deleteAStudent } from "./studentsSlice";
+import { deleteAStudent } from "../../redux/features/students/studentsSlice";
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 import "./studentPaging.scss";

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { searchStudent } from "../../features/students/studentsSlice";
+// import { searchStudent } from "../../features/students/studentsSlice";
+import { searchStudent } from "../../../redux/features/students/studentsSlice";
 
 export const Searchbar = () => {
   //   const students = useSelector((state) => state.students);

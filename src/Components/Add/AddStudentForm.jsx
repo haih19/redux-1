@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { nanoid } from "@reduxjs/toolkit";
-import { addAStudent } from "./studentsSlice";
+import { addAStudent } from "../../redux/features/students/studentsSlice";
 
 export const AddStudentForm = () => {
   const [name, setName] = useState("");

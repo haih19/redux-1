@@ -1,5 +1,5 @@
-import { StudentsList } from "../../features/students/StudentsList";
-import { AddStudentForm } from "../../features/students/AddStudentForm";
+import { StudentsList } from "../../Components/StudentsList/StudentsList";
+import { AddStudentForm } from "../../Components/Add/AddStudentForm";
 export const StudentModule = () => {
   return (
     <div className="container">
