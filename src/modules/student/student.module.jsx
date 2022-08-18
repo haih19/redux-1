@@ -4,7 +4,7 @@ export const StudentModule = () => {
   return (
     <div className="container">
       <AddStudentForm />
-      <table className="table table-striped">
+      {/* <table className="table table-striped">
         <thead>
           <tr>
             <th scope="col">id</th>
@@ -13,8 +13,8 @@ export const StudentModule = () => {
             <th scope="col">Action</th>
           </tr>
         </thead>
-        <StudentsList />
-      </table>
+      </table> */}
+      <StudentsList />
     </div>
   );
 };

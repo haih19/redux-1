@@ -49,7 +49,7 @@ export const AddStudentForm = () => {
             value={stuClass}
           />
           <button onClick={handleOnclickSave} type="button">
-            Save Post
+            Add
           </button>
         </form>
       </div>
