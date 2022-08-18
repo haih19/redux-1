@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
+import { Searchbar } from "../Searchbar/Searchbar";
 
 export const Navbar = () => {
   return (
@@ -34,6 +35,7 @@ export const Navbar = () => {
           </ul>
         </div>
       </div>
+      <Searchbar />
     </nav>
   );
 };

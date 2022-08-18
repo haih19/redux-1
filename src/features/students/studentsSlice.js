@@ -46,12 +46,20 @@ const studentsSlice = createSlice({
       const { id } = action.payload;
       return state.filter((student) => student.id !== id);
     },
+    searchStudent: (state, action) => {
+      const stuClass = action.payload;
+      return state.filter(
+        (student) =>
+          student.stuClass.includes(stuClass) ||
+          stuClass.includes(student.stuClass)
+      );
+    },
   },
 });
 
 // export const { stuAdded } = stuAdded.actions;
 // export const addAStudent = addAStudent.action;
-export const { addAStudent, updateAStudent, deleteAStudent } =
+export const { addAStudent, updateAStudent, deleteAStudent, searchStudent } =
   studentsSlice.actions;
 
 export default studentsSlice.reducer;
